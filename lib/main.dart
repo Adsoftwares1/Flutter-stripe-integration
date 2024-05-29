@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
+import 'package:flutter_stripe_integration/Google_Map/google_map.dart';
 import 'package:flutter_stripe_integration/Payment_Integration_Stripe/stripe_integration.dart';
 
 void main() async {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FlutterStripeIntegration(),
+      home: GoogleMapHome(),
     );
   }
 }
